@@ -1,0 +1,23 @@
+{
+  "name": "react-socket",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Socket example with nodejs and reactjs",
+  "workspaces": [
+    "socket-app",
+    "socket-server"
+  ],
+  "scripts": {
+    "dev:app": "npm run dev --workspace=socket-app",
+    "dev:server": "npm run dev --workspace=socket-server"
+  },
+  "engines": {
+    "npm": "7.21.1"
+  },
+  "author": "Ronald Berdúo (NeftXx)",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.26.0"
+  }
+}
