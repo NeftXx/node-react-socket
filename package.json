@@ -9,6 +9,8 @@
   ],
   "scripts": {
     "dev:app": "npm run dev --workspace=socket-app",
+    "build:app": "npm run build --workspace=socket-app",
+    "server:app": "npm run serve --workspace=socket-app",
     "dev:server": "npm run dev --workspace=socket-server"
   },
   "engines": {
